@@ -1,0 +1,26 @@
+site_name: Generador de Contraseñas - Documentación
+site_author: Tu Nombre
+
+theme:
+  name: material
+  language: es
+  palette:
+    primary: blue
+    accent: indigo
+  features:
+    - navigation.tabs
+    - search.highlight
+
+nav:
+  - 'Inicio': 'index.md'
+  - 'Guía de Uso': 'guia-uso.md'
+  - '📚 API Javadoc': 'api/index.html'
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - tables
